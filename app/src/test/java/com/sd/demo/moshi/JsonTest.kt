@@ -1,6 +1,5 @@
 package com.sd.demo.moshi
 
-
 import com.sd.lib.moshi.fMoshi
 import com.squareup.moshi.Moshi
 import org.junit.Test
