@@ -7,7 +7,7 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.Type;
 import java.util.Set;
 
-final class NullSafePrimitiveAdapterFactory implements JsonAdapter.Factory {
+public class FNullSafePrimitiveAdapterFactory implements JsonAdapter.Factory {
     @Override
     public JsonAdapter<?> create(Type type, Set<? extends Annotation> annotations, Moshi moshi) {
         if (!annotations.isEmpty()) return null;

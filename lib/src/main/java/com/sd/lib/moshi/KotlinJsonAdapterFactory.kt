@@ -191,7 +191,7 @@ internal class KotlinJsonAdapter<T>(
     }
 }
 
-internal class FKotlinJsonAdapterFactory : JsonAdapter.Factory {
+class FNullSafeKotlinJsonAdapterFactory : JsonAdapter.Factory {
     override fun create(type: Type, annotations: MutableSet<out Annotation>, moshi: Moshi):
             JsonAdapter<*>? {
         if (annotations.isNotEmpty()) return null
