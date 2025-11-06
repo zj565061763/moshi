@@ -1,4 +1,10 @@
-[![](https://jitpack.io/v/zj565061763/moshi.svg)](https://jitpack.io/#zj565061763/moshi)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.zj565061763.android/moshi)](https://central.sonatype.com/search?q=g:io.github.zj565061763.android+moshi)
+
+# Gradle
+
+```kotlin
+implementation("io.github.zj565061763.android:moshi:$version")
+```
 
 # About
 
